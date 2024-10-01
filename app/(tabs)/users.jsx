@@ -8,7 +8,7 @@ const users = () => {
   sirve para abrir otras apps como sms o gmail*/
   return (
     <SafeAreaView>
-      <Text>Hi users:</Text>
+      <Text>Hi users</Text>
       <Button
         title="Add a number phone"
         onPress={() => Linking.openURL("tel:")}
